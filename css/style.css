@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CONFIGURAÇÕES GERAIS */
+body {
+    overflow: hidden;
+    scrollbar-width: none; /* Para browsers que suportam essa propriedade */
+    -ms-overflow-style: none; /* Para Internet Explorer e Edge antigos */
+}
+
+/* Estilos para os navegadores que não suportam a propriedade "scrollbar-width" */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* CABEÇALHO DO SITE */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    z-index: 9999;
+}
+
+
+h1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: 60%;
+}
+
+#banner {
+    width: 300px;
+    height: auto;
+}
+
+#menu {
+    background-color: #F58634;
+    text-align: center;
+    height: 40%;
+}
+
+#menu li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#menu a{
+    color: #373435;
+    text-decoration: none;
+}
+
+#menu li:hover a{
+    color: aliceblue;
+    text-shadow: 5px solid #373435;
+}
+
+
+/* RODAPÉ DO SITE */
+
+footer{
+    text-align: center;
+    position: fixed;
+
+    bottom: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 5%;
+
+    z-index: 9999;
+
+    background-color: rgb(3, 3, 3);
+
+}
+
+footer > p{
+    color: #F58634;
+    font-family: 'Poppins', sans-serif;
+    padding: 2px;
+    
+}
+
+/* FIM DO RODAPÉ DO SITE */
